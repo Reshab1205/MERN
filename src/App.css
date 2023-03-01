@@ -1,38 +1,78 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(235, 236, 213);
+}
+
+.cd {
+  margin: 10vh;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar {
+  background-color: rgba(34, 128, 250, 0.76) !important;
   color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.navtags {
+  color: rgba(45, 8, 180, 0.808);
+  font-weight: 700;
+  text-decoration:wavy;
+  text-decoration-color: aquamarine;
+  margin: 0 0.3rem;
+}
+.nav-title{
+  font-weight: 700;
+  text-decoration-color: bisque;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formcard {
+  margin: 10vh auto;
+  max-width: 60ch;
+  box-shadow: 0px 10px 11px 6px rgba(5, 4, 4, 0.22);
+  min-width: 10ch;
+}
+
+.tablecard {
+  margin: 10vh auto;
+  max-width: 100ch;
+  box-shadow: 0px 10px 18px 6px rgba(0, 0, 0, 0.22);
+  border-radius: 0.5rem;
+  text-align: left;
+}
+
+.search{
+  width: 30%;
+  
+}
+
+#navbar-color{
+  background-color: rgba(12, 170, 209, 0.582)
+}
+
+
+
+ .btn-na{
+   background-color: #353232;
+ }
+ .btn-na:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: rgb(211, 10, 238);
+  background-color: beige;
+  text-decoration: none;
+}
+
+#view-btna{
+  background-color: rgb(rgb(245, 155, 71));
+}
+
+#add-btn{
+  background-color: rgb(44, 171, 255);
+}
+#add-btn:hover{
+  background-color: chocolate;
 }
